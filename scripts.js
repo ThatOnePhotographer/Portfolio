@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const message = encodeURIComponent(document.getElementById("message").value.trim());
     const subject = encodeURIComponent("Portfolio inquiry from " + name);
     const body = encodeURIComponent(`Name: ${decodeURIComponent(name)}\nEmail: ${decodeURIComponent(email)}\n\n${decodeURIComponent(message)}`);
-    const recipient = "your.email@example.com";
+    const recipient = "elliottohanderstein@gmail.com";
 
     window.location.href = `mailto:${recipient}?subject=${subject}&body=${body}`;
   });
