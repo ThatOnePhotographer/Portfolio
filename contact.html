@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">My Portfolio</a>
+        <nav class="site-nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container content-page">
+      <section class="page-intro">
+        <p class="eyebrow">Contact</p>
+        <h1>I'd love to hear from you.</h1>
+        <p>
+          Use the form below to send a message. This site is set up to open your email client with a pre-filled message.
+        </p>
+      </section>
+
+      <section class="form-panel">
+        <form id="contact-form" class="contact-form">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Tell me about your project" required></textarea>
+
+          <button class="button button-primary" type="submit">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+          <h2>Other ways to connect</h2>
+          <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+          <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+          <p>Note: update the email address in <code>contact.html</code> and <code>scripts.js</code> to your own email.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2026 Your Name. You can customize the contact section to match your brand.</p>
+      </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
